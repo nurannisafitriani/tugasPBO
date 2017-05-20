@@ -17,7 +17,7 @@ public class Main {
         System.out.print("Masukkan menu pilihan : ");
         menu = input.nextInt();
         
-        switch (menu){
+        switch (menu){ //pilihan menu
             case 1 :
                 System.out.println("\n===Daftar Peringkat Clan===");
                 sc.showclanPeringkat();
